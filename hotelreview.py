@@ -15,7 +15,7 @@ st.title('Hotel Review Analysis')
 
 @st.cache
 def load_data(nrows):
-    data = pd.read_csv('C:/Users/sarwa/OneDrive/Documents/SPU/DS620/streamlit/hotelreviews.csv', nrows=nrows)
+    data = pd.read_csv('C:\Users\ficky alkarim\Documents\Angkasa Pura Customer Experience 2024\Hotel-review-analysis-main\hotelreviews.csv', nrows=nrows)
     return data
 
 reviews=load_data(500)
